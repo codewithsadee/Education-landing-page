@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+/* 
+body {
+  font-family: 'Handlee', cursive;
+  font-family: 'Montserrat', sans-serif;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: url(./images/pexels-burst-373883.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+
+.section-title h3 {
+  position: relative;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.up {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  padding: 4px 10px;
+  background: #00000050;
+  color: #ffffff;
+  transition: 0.4s;
+}
+
+.up:hover {
+  transform: scale(1.1);
+  border: 1px solid #000000;
+  background: #ffffff;
+  color: #000000;
+}
+
+/*----------------------------- nav starts here ------------------------------*/
+
+.navbar {
+  padding: 1% 10%;
+  background: #00000030;
+}
+
+.navbar-icon {
+  color: #ffffff;
+}
+
+.nav-link {
+  color: #ffffff;
+  margin: 10px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.nav-link:hover {
+  background: #ffffff;
+  color: #000000;
+  transform: scale(1.1);
+}
+/*------------------------------ nav ends here------------------------------ */
+
+/*------------------------------- banner starts here----------------------- */
+.banner-container {
+  height: 100vh;
+}
+
+.banner-contents h1 {
+  font-size: 3.5rem;
+  background: #0084ff96;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: "Handlee", cursive;
+}
+/*-------------------------------- banner ends here -----------------------------*/
+
+/*------------------------------ features starts here --------------------------*/
+#features {
+  padding: 5% 10%;
+  background: #fbeaff;
+}
+
+.features-col {
+  border: 1px solid #4b4453;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+  transition: 0.4s;
+}
+
+.features-col:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.features-col h5 {
+  color: #008f7a;
+}
+
+.icon-style {
+  background: #008f7a;
+  color: #ffffff;
+  padding: 15px;
+  margin: 5px 0;
+}
+/*--------------------------------- features ends here -------------------------------*/
+
+/* -------------------------------about section starts here ----------------------------*/
+#about {
+  padding: 4% 10%;
+  background: #e8ded2;
+}
+
+#about p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  font-weight: light;
+}
+
+#about a {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.achieve-desc span {
+  font-weight: 700 !important;
+}
+
+.star i {
+  width: 20px;
+}
+
+/*-------------------------------- about section ends here -----------------------------*/
+
+/*------------------------------ tutorials section starts here -------------------------*/
+#tutorial {
+  padding: 4% 10%;
+  background: #a3d2ca;
+}
+
+.card {
+  transition: 0.4s;
+  border: 1px solid #ff02c0;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px #000000;
+}
+/*------------------------------ tutorials section ends here ---------------------------*/
+
+/*------------------------------- feedback section starts here -------------------------*/
+#feedback {
+  padding: 5%;
+  background: #5eaaa8;
+}
+
+.carousel-item {
+  text-align: center;
+  padding: 7% 15%;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.feedback-img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 5px;
+}
+/*-------------------------------- feedback section ends here --------------------------*/
+
+/*-------------------------------- contact section starts here -------------------------*/
+#contact {
+  padding: 2% 10%;
+  background: #5eaaa8;
+}
+
+.form-group label {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+/*--------------------------------- contact section ends here --------------------------*/
+
+/*-------------------------------- footer section starts here --------------------------*/
+footer {
+  padding: 1% 10%;
+  background: #056676;
+}
+
+footer a {
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #000000;
+}
+/*--------------------------------- footer section ends here ---------------------------*/
